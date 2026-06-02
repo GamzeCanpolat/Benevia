@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "8262312f-6fe5-4851-b61a-f6f55dd4b425",
+		"name": "Benevia API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50174215",
+		"_collection_link": "https://burcuakyuz-4428595.postman.co/workspace/burcu's-Workspace~136dd204-a89b-4fd2-809e-63c196e64086/collection/50174215-8262312f-6fe5-4851-b61a-f6f55dd4b425?action=share&source=collection_link&creator=50174215"
+	},
+	"item": [
+		{
+			"name": "GET /weekly-meal-plan",
+			"request": {
+				"auth": {
+					"type": "bearer"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/weekly-meal-plan",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"weekly-meal-plan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /profile",
+			"request": {
+				"auth": {
+					"type": "bearer"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/profile",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST /profile",
+			"request": {
+				"auth": {
+					"type": "bearer"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Burcu\",\n  \"surname\": \"Akyüz\",\n  \"gender\": \"Kadın\",\n  \"age\": 21,\n  \"height\": 160,\n  \"weight\": 53,\n  \"diseases\": [3]\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/profile",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /smart-recommendations",
+			"request": {
+				"auth": {
+					"type": "bearer"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/smart-recommendations",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"smart-recommendations"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "<YOUR_TOKEN_HERE>",
+				"type": "string"
+			}
+		]
+	}
+}

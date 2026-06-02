@@ -1,0 +1,35 @@
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+.env
+*.env
+
+# Local Firebase/service account files
+firebase_key.json
+*-firebase-adminsdk-*.json
+
+# Flutter/Dart
+benevia/.dart_tool/
+benevia/.flutter-plugins
+benevia/.flutter-plugins-dependencies
+benevia/.pub-cache/
+benevia/.pub/
+benevia/build/
+
+# Android local/build files
+benevia/android/.gradle/
+benevia/android/.kotlin/
+benevia/android/local.properties
+benevia/android/build/
+benevia/android/app/build/
+benevia/android/key.properties
+benevia/android/**/*.jks
+benevia/android/**/*.keystore

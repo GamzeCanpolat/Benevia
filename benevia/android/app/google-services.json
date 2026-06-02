@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "256224113813",
+    "project_id": "msb-36d53",
+    "storage_bucket": "msb-36d53.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256224113813:android:8dc94450053cec05f6979c",
+        "android_client_info": {
+          "package_name": "com.benevia.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256224113813-v0oafsvr2tj9vllv7m3ot6098p069cs6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.benevia.app",
+            "certificate_hash": "5b4c1f4dc6612d878523da379cd1526ba7eb659c"
+          }
+        },
+        {
+          "client_id": "256224113813-4ve4tjicmuq7eh2qmu9jecebnhlg8ru0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZWL_WUbmA1p_QXxge_MwHDakV2ZvxNyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256224113813-4ve4tjicmuq7eh2qmu9jecebnhlg8ru0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "256224113813-7heaqcf9khac0k9hib57jn6uhj5uqebq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.benevia.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
